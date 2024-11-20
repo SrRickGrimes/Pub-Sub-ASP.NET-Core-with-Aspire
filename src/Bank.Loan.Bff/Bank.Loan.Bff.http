@@ -1,0 +1,6 @@
+@Bank.Loan.Bff_HostAddress = http://localhost:5265
+
+GET {{Bank.Loan.Bff_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
