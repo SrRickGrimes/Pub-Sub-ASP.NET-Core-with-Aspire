@@ -1,6 +1,22 @@
-@Bank.Loan.Api_HostAddress = http://localhost:5229
+@Bank.Loan.Api_HostAddress = https://localhost:7202
 
 GET {{Bank.Loan.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
+###
+
+POST {{Bank.Loan.Api_HostAddress}}/api/loans
+Content-Type: application/json
+
+{
+    "customerId": "CUST-001",
+    "amount": 10000.00,
+    "terms": 12
+}
+
+###
+
+###
+GET {{Bank.Loan.Api_HostAddress}}/api/loans/LOAN-20241120-98C786E3
+Accept: application/json
 ###
