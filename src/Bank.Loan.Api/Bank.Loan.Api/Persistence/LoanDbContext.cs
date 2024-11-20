@@ -82,7 +82,7 @@ public class LoanDbContext(
                             }
                         }
 
-                        await publisher.PublishLoanSubmittedAsync(loan, terms ?? 12); // default a 12 meses
+                        await publisher.PublishLoanSubmittedAsync(loan, terms ?? 12); // default 12 months
                     }
                 }
                 catch (Exception ex)
@@ -90,7 +90,7 @@ public class LoanDbContext(
                     logger.LogError(ex,
                         "Error publishing event for loan {LoanId}",
                         submittedEvent.LoanId);
-                    throw; // Importante re-throw para mantener la consistencia transaccional
+                    throw;
                 }
             }
         }
