@@ -1,6 +1,6 @@
 ﻿using Bank.Loan.Api.Entities;
-using Bank.Loan.Api.Events;
 using Bank.Loan.Api.Interfaces;
+using Bank.Loan.Contracts.Events;
 using MassTransit;
 
 namespace Bank.Loan.Api.Services;

@@ -1,4 +1,4 @@
-﻿namespace Bank.Loan.Api.Events;
+﻿namespace Bank.Loan.Contracts.Events;
 
 public record LoanSubmittedIntegrationEvent
 {

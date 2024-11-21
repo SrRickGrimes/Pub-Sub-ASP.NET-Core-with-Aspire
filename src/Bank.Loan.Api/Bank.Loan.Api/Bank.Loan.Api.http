@@ -17,6 +17,6 @@ Content-Type: application/json
 ###
 
 ###
-GET {{Bank.Loan.Api_HostAddress}}/api/loans/LOAN-20241120-98C786E3
+GET {{Bank.Loan.Api_HostAddress}}/api/loans/LOAN-20241121-EE9CA2CC
 Accept: application/json
 ###

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Loan.Api", "Bank.Loan.Api\Bank.Loan.Api.csproj", "{0223C793-564D-4F63-BF76-842607B1F9F1}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Loan.Api.ServiceDefaults", "Bank.Loan.Api.ServiceDefaults\Bank.Loan.Api.ServiceDefaults.csproj", "{6E887F99-37D4-46B7-806F-74D7613B76AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Loan.Bff", "..\Bank.Loan.Bff\Bank.Loan.Bff.csproj", "{A6C0DA3D-E7AA-4474-9F86-D01EBB195322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Loan.Contracts", "..\Bank.Loan.Contracts\Bank.Loan.Contracts.csproj", "{3C8113A5-1375-4812-B1B7-DAEDABC561A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A6C0DA3D-E7AA-4474-9F86-D01EBB195322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C0DA3D-E7AA-4474-9F86-D01EBB195322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C0DA3D-E7AA-4474-9F86-D01EBB195322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8113A5-1375-4812-B1B7-DAEDABC561A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8113A5-1375-4812-B1B7-DAEDABC561A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8113A5-1375-4812-B1B7-DAEDABC561A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8113A5-1375-4812-B1B7-DAEDABC561A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
